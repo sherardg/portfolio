@@ -12,7 +12,12 @@ section {
 }
 
 #about{
-  background: #ffc;
+  background: #d7e9d8;
+  /* color: antiquewhite; */
+}
+
+#portfolio{
+  background: #ffffcc;
 }
 
 #contact{
@@ -39,6 +44,12 @@ section {
   transition: font-size .3s;
   color: white;
   text-transform: capitalize;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .nav-pills .nav-link {
@@ -63,6 +74,10 @@ section {
 
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
 }
 
 .divider-custom .divider-custom-line {
