@@ -3,6 +3,13 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+ /* body{
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 15px;
+   line-height: 1.2em;
+
+ } */
 header {
   padding: 156px 0 100px;
 }
@@ -17,7 +24,7 @@ section {
 }
 
 #portfolio{
-  background: #ffffcc;
+  background: #e1e3f9;
 }
 
 #contact{
@@ -92,4 +99,15 @@ section {
 .page-section .page-section-heading {
   font-size: 3rem;
   line-height: 2.5rem;
+}
+
+p.Connect {
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
 }
