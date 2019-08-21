@@ -8,3 +8,9 @@ Technologies Included:
 * Bootstrap
 * HTML
 * CSS
+* MySQL
+* Node
+* Express
+* Handlebars
+
+
