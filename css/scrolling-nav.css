@@ -34,8 +34,8 @@ section {
 .bg-primary {
   background-color: #7a58b0 !important;
   }
-  
-  .bg-secondary {
+ 
+.bg-secondary {
   background-color: #2c3e50 !important;
   }
 
@@ -46,20 +46,38 @@ a {
   background-color: transparent;
 }
 
+a:hover {
+  color: #336699;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
 .btn-primary {
   color: #fff;
-  background-color: #5a95cf;
-  border-color: #5a95cf;
+  background-color: #336699;
+  border-color: #336699;
   }
   
-.navbar-expand-lg .navbar-collapse {
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #5a95cf;
+    text-decoration: none;
+  }
+
+  .btn-secondary {
+    background-color: #2c3e50;
+    }
+  
+/* .navbar-expand-lg .navbar-collapse {
   display: -ms-flexbox!important;
   display: flex!important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
+} */
 
 .navbar-brand {
   font-size: 1.75em;
@@ -129,38 +147,6 @@ p {
   font-size: 18px;
 }
 
-
-#mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-}
-
-#mainNav .navbar-brand {
-  color: #fff;
-}
-
-#mainNav .navbar-nav {
-  margin-top: 1rem;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
-}
-
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
@@ -187,7 +173,7 @@ p {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #336699;
+    background: #5a95cf;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -201,3 +187,6 @@ p {
   color: #fff;
   background-color: #5a95cf;
 }
+
+
+
