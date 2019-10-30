@@ -4657,13 +4657,13 @@ input[type="button"].btn-block {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-  .navbar-expand-lg .navbar-collapse {
+  /* .navbar-expand-lg .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-  }
+  } */
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
